@@ -1,11 +1,17 @@
 .parent {
-    color: red;
+    /* color: red; */
     height: 256px;
     background-color: lightblue;
 }
 
 .child {
-    color: rgba(0, 128, 0, 0.4);
+    /* color: rgba(0, 128, 0, 0.4); */
     height: 128px;
-    background-color: mediumaquamarine;
+    background-color: rgba(157, 212, 157, 0.4);
+}
+
+.fonts {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
