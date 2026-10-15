@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flex Box Model</title>
+        <style>
+           .box{
+            display:flex;
+            background-color: aquamarine;
+            justify-content: space-between;
+            padding: 0 20px;
+           }
+           .list-box{
+            display: flex;
+            justify-content: space-between;
+            width:150px;
+            list-style-type: none;
+            align-items: center;
+           }
+           .list-box a{
+            text-decoration: none;
+            color:brown;
+           }
+        </style>
+    </head>
+    <body>
+        <nav class="box">
+            <h1>Posts</h1>
+            <ul class="list-box">
+                <a href="#week"><li>Week</li></a>
+                <a href="#month"><li>Month</li></a>
+                <a href="#feed"><li>Feed</li></a>
+            </ul>
+        </nav>
+        <div>
+            <a href="./pages/flex-wrap.html">Flex Wrap </a>
+            <br>
+            <a href="./pages/media-querys.html">Media Queries</a>
+            <br>
+            <a href="./pages/grid.html">Grid Layout</a>
+        </div>
+    </body>
+</html>

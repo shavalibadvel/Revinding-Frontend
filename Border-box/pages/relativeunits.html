@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Units</title>
+    <style>
+       
+        .parent{
+            font-size: 10px;
+        }
+        .child-1{
+            font-size: 2em;
+        }
+        .child-2{
+            font-size: 2em;
+        }
+        .child-1x{
+            font-size: 2rem;
+        }
+        .child-2x{
+            font-size: 2rem;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>1. EM Unit</h1>
+        <div class="parent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <div class="child-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis nam dolorem nemo ullam alias iure aliquam quidem eius magni officia eligendi commodi voluptates, deleniti quos cumque quae accusantium id?
+                <div class="child-2">
+                    lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis nam dolorem nemo ullam alias iure aliquam quidem eius magni officia eligendi commodi voluptates, deleniti quos cumque quae accusantium id?
+                </div>
+            </div>
+        </div>
+
+        <h1>2. REM Unit</h1>
+        <div class="parent">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <div class="child-1x">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis nam dolorem nemo ullam alias iure aliquam quidem eius magni officia eligendi commodi voluptates, deleniti quos cumque quae accusantium id?
+                <div class="child-2x">
+                    lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis nam dolorem nemo ullam alias iure aliquam quidem eius magni officia eligendi commodi voluptates, deleniti quos cumque quae accusantium id?
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>
